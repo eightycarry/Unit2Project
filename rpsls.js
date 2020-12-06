@@ -176,6 +176,9 @@ $(document).ready(function(){
     function playerSpock(event) {
         event.preventDefault();
 
+        //ai chooses a hand at random
+        var aiChoice = Math.floor(Math.random() * 5);
+
         if (aiChoice === 0) {//ai chooses rock
             $("#playerChoice").text("Spock")
             $("#aiChoice").text("Rock")
