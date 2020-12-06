@@ -10,6 +10,14 @@ $(document).ready(function(){
     var playerScore = 0;
     //computer starts with 0 score
     var aiScore = 0;
+    //determine winner of round after best 2 out of 3
+    /*if (playerScore === 2) {
+        $("#roundWinner").text("Player won this round")
+    } else if (aiScore === 2) {
+        $("#roundWinner").text("Computer won this round")
+    } else if (playerScore === 2 && aiScore ===2) {
+        $("#roundWinner").text("Player and Computer tied!")
+    }*/
 
     //player chooses Rock
     function playerRock(event) {
@@ -22,8 +30,6 @@ $(document).ready(function(){
             $("#playerChoice").text("Rock");
             $("#aiChoice").text("Rock");
             $("#results").text("TIE");
-            playerScore++;
-            aiScore++;
         } else if (aiChoice === 1) { //ai chooses paper
             $("#playerChoice").text("Rock");
             $("#aiChoice").text("Paper");
@@ -68,8 +74,6 @@ $(document).ready(function(){
             $("#playerChoice").text("Paper");
             $("#aiChoice").text("Paper");
             $("#results").text("TIE");
-            playerScore++;
-            aiScore++;
         } else if (aiChoice === 2) { //ai chooses scissors
             $("#playerChoice").text("Paper");
             $("#aiChoice").text("Scissors");
@@ -113,8 +117,6 @@ $(document).ready(function(){
             $("#playerChoice").text("Scissors");
             $("#aiChoice").text("Scissors");
             $("#results").text("TIE");
-            playerScore++;
-            aiScore++;
         } else if (aiChoice === 3) {//ai chooses lizard
             $("#playerChoice").text("Scissors");
             $("#aiChoice").text("Lizard");
@@ -158,8 +160,6 @@ $(document).ready(function(){
             $("#playerChoice").text("Lizard");
             $("#aiChoice").text("Lizard");
             $("#results").text("TIE");
-            playerScore++;
-            aiScore++;
         } else {//ai chooses spock
             $("#playerChoice").text("Lizard");
             $("#aiChoice").text("Spock");
@@ -203,8 +203,6 @@ $(document).ready(function(){
             $("#playerChoice").text("Spock");
             $("#aiChoice").text("Spock");
             $("#results").text("TIE");
-            playerScore++;
-            aiScore++;
         }
 
         //display scores
