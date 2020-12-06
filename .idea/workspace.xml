@@ -57,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607213592756</updated>
-      <workItem from="1607213595494" duration="10141000" />
+      <workItem from="1607213595494" duration="11345000" />
     </task>
     <task id="LOCAL-00001" summary="Rock Paper Scissors Lizard Spock">
       <created>1607214375260</created>
@@ -73,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607216140299</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Rock Paper Scissors Lizard Spock">
+      <created>1607224112701</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607224112701</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,9 +107,9 @@
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607213709895" />
     <state x="2660" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607221921737" />
-    <state x="2472" y="252" key="Vcs.Push.Dialog.v2" timestamp="1607216141908">
+    <state x="2472" y="252" key="Vcs.Push.Dialog.v2" timestamp="1607224115573">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607216141908" />
+    <state x="2472" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607224115573" />
   </component>
 </project>
