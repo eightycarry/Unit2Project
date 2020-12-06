@@ -10,10 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfa65444-143d-455f-8016-4d497f2c2049" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpsls.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpsls.js" afterDir="false" />
+    <list default="true" id="cfa65444-143d-455f-8016-4d497f2c2049" name="Default Changelist" comment="Rock Paper Scissors Lizard Spock">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpsls.css" beforeDir="false" afterPath="$PROJECT_DIR$/rpsls.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpsls.js" beforeDir="false" afterPath="$PROJECT_DIR$/rpsls.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +56,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607213592756</updated>
-      <workItem from="1607213595494" duration="730000" />
+      <workItem from="1607213595494" duration="2418000" />
     </task>
+    <task id="LOCAL-00001" summary="Rock Paper Scissors Lizard Spock">
+      <created>1607214375260</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607214375260</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,10 +82,18 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Rock Paper Scissors Lizard Spock" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rock Paper Scissors Lizard Spock" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1607213709895">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607213709895" />
+    <state x="2472" y="252" key="Vcs.Push.Dialog.v2" timestamp="1607214378691">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607214378691" />
   </component>
 </project>
