@@ -14,33 +14,43 @@
     <h1>Rock Paper Scissors Lizard Spock</h1>
 
     <div class="container">
-
         <div class="draw">
             <div class="column">
-                <img src="images/rock.PNG" height="129" width="152" id="rock">
+                <button  id="rock" name="rock" value="0">
+                    <img src="images/rock.PNG" height="129" width="152">
+                </button>
             </div>
 
             <div class="column">
-                <img src="images/paper.PNG" height="131" width="177" id="paper">
+                <button  id="paper" name="paper" value="1">
+                <img src="images/paper.PNG" height="131" width="177">
+                </button>
             </div>
 
             <div class="column">
-                <img src="images/scissors.PNG" height="166" width="99" id="scissors">
+                <button id="scissors" name="scissors" value="2">
+                <img src="images/scissors.PNG" height="166" width="99">
+                </button>
             </div>
 
             <div class="column">
-                <img src="images/lizard.PNG" height="197" width="297" id="lizard">
+                <button id="lizard" name="lizard" value="3">
+                <img src="images/lizard.PNG" height="157" width="197">
+                </button>
             </div>
 
             <div class="column">
-                <img src="images/spock.PNG" height="210" width="205" id="spock">
+                <button id="spock" name="spock" value="4">
+                <img src="images/spock.PNG" height="210" width="205">
+                </button>
             </div>
         </div>
-
         <div class="results">
-
-
-
+            <h3>You chose: <span id="playerChoice"></span></h3>
+            <h3>The computer chose: <span id="aiChoice"></span></h3>
+            <h3><span id="results"></span></h3>
+            <h3>Player score: <span id="playerScore"></span></h3>
+            <h3>Computer score: <span id="aiScore"></span></h3>
         </div>
     </div>
 
