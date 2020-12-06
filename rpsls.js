@@ -119,7 +119,7 @@ $(document).ready(function(){
             $("#playerChoice").text("Scissors")
             $("#aiChoice").text("Lizard")
             $("#results").text("PLAYER WINS");
-            palyerScore++;
+            playerScore++;
         } else {//ai chooses spock
             $("#playerChoice").text("Scissors")
             $("#aiChoice").text("Spock")
